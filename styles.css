@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=League+Spartan&family=Montserrat:wght@500&display=swap");
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+body {
+    background-color: #4d8ac8;
+}
+
+.canvas {
+    width: 400px;
+    height: 650px;
+    background-color: #95c4f3;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#head-title {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.number-container-display {
+    height: 100px;
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#number-guess-display {
+    font-family: "monsterrat", sans-serif;
+    text-align: center;
+    padding: 1vh;
+    font-size: 60px;
+}
+button {
+    /* width: 24%; */
+    height: 120px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 4px;
+    color: #4d8ac8;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: 0;
+    margin: 5px;
+    user-select: none;
+}
+
+.guess-button button:hover {
+    background-color: #ffffff;
+    color: #6494c5;
+}
+
+.guess-button {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 10px;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#skip-btn {
+    background-color: #efefef;
+    /* background-color: #ec7777; */
+    /* color: white; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: none;
+}
+#start-next-btn {
+    background-color: #4d8ac8;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+#start-next-btn:hover {
+    background-color: #67aff7;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+#money {
+    text-align: center;
+    font-family: "league spartan", sans serif;
+}
+
+.scoring {
+    text-align: center;
+    margin: 30px;
+    font-family: "League Spartan", sans-serif;
+}
+
+#challange-text {
+    text-align: center;
+    font-family: "monsterrat", sans-serif;
+}

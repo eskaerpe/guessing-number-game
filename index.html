@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Guess Number</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="canvas">
+            <h1 id="head-title">Guess Number Game</h1>
+            <div class="number-container-display">
+                <div id="number-guess-display">Press Start</div>
+            </div>
+            <div class="guess-button">
+                <button id="option-1" onclick="ChooseFirstOption()"></button>
+                <button id="option-2" onclick="ChooseSecondOption()"></button>
+                <button id="skip-btn" onclick="skipButton()">Skip</button>
+                <button id="start-next-btn" onclick="startGame()">Start</button>
+            </div>
+            <h3 id="money"></h3>
+            <div class="scoring">
+                <p>
+                    Point Calculation :<br />
+                    Benar : +1$<br />
+                    Salah : -2$<br />
+                    Skip : -2$<br />
+                </p>
+            </div>
+            <!-- <h3 id="challange-text">Rekam ketika anda sedang memainkan ini dan upload ke tiktok dengan hashtag #TebakAngkaEsksk <br />Orang yang paling tinggi uangnya, berarti dia yang menang!</h3> -->
+        </div>
+    </body>
+</html>
